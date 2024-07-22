@@ -1,0 +1,109 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Header styles */
+header {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #ff6600;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    color: #ff6600;
+    margin: 0;
+}
+
+.menu-item p {
+    margin: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ff6600;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Contact form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
